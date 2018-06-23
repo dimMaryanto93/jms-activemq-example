@@ -2,6 +2,12 @@
 
 JMS atau Java Message Service, biasanya digunakan untuk mengirimkan pesan atau message minimal 2 atau lebih aplikasi. JMS berbeda dengan email.
 
+## System Requirement
+
+- Java
+- Maven
+- [Apache ActiveMQ](http://activemq.apache.org/download.html)
+
 ## Istilah JMS
 
 - JMS Provider, yaitu _Message Oriented Midleware_ atau aplikasi yang bertindak sebagai broker salah satu contohnya yaitu Apache ActiveMQ, RabitMQ, Hive MQTT, IBM MQ, JBoss Messaging dan lain-lain masih banyak lagi.
@@ -31,7 +37,7 @@ Message queue, dilewatkan melalui HTTP. ada beberapa protocol standar untuk meng
 - STOMP (Streaming Text Oriented Messaging Protocol), dan 
 - MQTT. 
 
-## Refensi
+## Referensi
 
 - https://en.wikipedia.org/wiki/Java_Message_Service
 - https://en.wikipedia.org/wiki/Message_queue

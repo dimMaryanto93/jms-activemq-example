@@ -1,0 +1,10 @@
+# intellji idea
+.idea/
+*.iml
+*.ipl
+
+# systemfiles
+.DS_Store
+
+# maven
+target/

@@ -16,3 +16,15 @@ JMS atau Java Message Service, biasanya digunakan untuk mengirimkan pesan atau m
 
 - Point To Point (queue)
 - Publisher & Subscribe (topic)
+
+### Model PTP (Point to Point)
+
+![model point to point](imgs/model-point-to-point.jpg)
+
+Point to Point atau istilah lainnya peer to peer, Jadi dengan model ini messagenya hanya dapat diterima oleh satu consumer atau reciever.
+
+## Daftar pustaka
+
+- https://en.wikipedia.org/wiki/Java_Message_Service
+- https://en.wikipedia.org/wiki/Message_queue
+- https://docs.oracle.com/javaee/7/api/javax/jms/package-summary.html

@@ -8,6 +8,21 @@ JMS atau Java Message Service, biasanya digunakan untuk mengirimkan pesan atau m
 - Maven
 - [Apache ActiveMQ](http://activemq.apache.org/download.html)
 
+## Apache ActiveMQ getting started
+
+How to run application:
+
+- extract
+- run
+
+```bash
+bin/activemq start
+```
+
+- launch [http://localhost:8161](http://localhost:8161)
+
+![activemq webapp](imgs/webapp-activemq.png)
+
 ## Istilah JMS
 
 - JMS Provider, yaitu _Message Oriented Midleware_ atau aplikasi yang bertindak sebagai broker salah satu contohnya yaitu Apache ActiveMQ, RabitMQ, Hive MQTT, IBM MQ, JBoss Messaging dan lain-lain masih banyak lagi.

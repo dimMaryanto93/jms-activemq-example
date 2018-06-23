@@ -23,8 +23,21 @@ JMS atau Java Message Service, biasanya digunakan untuk mengirimkan pesan atau m
 
 Point to Point atau istilah lainnya peer to peer, Jadi dengan model ini messagenya hanya dapat diterima oleh satu consumer atau reciever.
 
-## Daftar pustaka
+## Message Queue
+
+Message queue, dilewatkan melalui HTTP. ada beberapa protocol standar untuk menggunakan JMS yaitu 
+
+- AMQP (Advanced Message Queuing Protocol), 
+- STOMP (Streaming Text Oriented Messaging Protocol), dan 
+- MQTT. 
+
+## Refensi
 
 - https://en.wikipedia.org/wiki/Java_Message_Service
 - https://en.wikipedia.org/wiki/Message_queue
 - https://docs.oracle.com/javaee/7/api/javax/jms/package-summary.html
+- https://en.wikipedia.org/wiki/Message-oriented_middleware
+- https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol
+- https://en.wikipedia.org/wiki/Streaming_Text_Oriented_Messaging_Protocol
+- https://en.wikipedia.org/wiki/MQTT
+- https://en.wikipedia.org/wiki/Apache_ActiveMQ

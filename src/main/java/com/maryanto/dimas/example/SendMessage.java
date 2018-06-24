@@ -17,8 +17,10 @@ public class SendMessage {
         Queue queue = session.createQueue("example.topic");
         MessageProducer producer = session.createProducer(queue);
 
-        TextMessage message = session.createTextMessage("ini dari message data dikirim pada " + new Date());
-        producer.send(message);
+        for (int i = 0; i < 10; i++) {
+            TextMessage message = session.createTextMessage(String.format("message ke %d pada %s", i, new Date()));
+            producer.send(message);
+        }
         producer.close();
 
         session.close();

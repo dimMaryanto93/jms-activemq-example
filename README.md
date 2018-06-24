@@ -49,9 +49,9 @@ Point to Point atau istilah lainnya peer to peer, Jadi dengan model ini messagen
 3. Setelah mengantrikan message kemudian dikirimkan ke client
 4. Client menerima message dari broker berdasarkan antrian, contohnya ada 2 kasus single instance dan multiple instance:
 
-- Single Instance
+### Single Instance
 
-Sending message
+#### Sending message
 
 ```bash
 mvn exec:java -Dexec.mainClass=com.maryanto.dimas.example.queue.SentQueue
@@ -64,7 +64,7 @@ mvn exec:java -Dexec.mainClass=com.maryanto.dimas.example.queue.SentQueue
 [INFO] ------------------------------------------------------------------------
 ```
 
-Recived message
+#### Recived message
 
 ```bash
 mvn exec:java -Dexec.mainClass=com.maryanto.dimas.example.queue.RecivedQueue
@@ -80,9 +80,9 @@ Message received: message ke 8 pada Sun Jun 24 12:39:38 WIB 2018, Thread: Active
 Message received: message ke 9 pada Sun Jun 24 12:39:38 WIB 2018, Thread: ActiveMQ Session Task
 ```
   
-- Multiple Instance
+### Multiple Instance
 
-Recieved message 1
+#### Recieved message 1
 
 ```bash
 mvn exec:java -Dexec.mainClass=com.maryanto.dimas.example.queue.RecivedQueue
@@ -92,7 +92,7 @@ Message received: message ke 4 pada Sun Jun 24 12:28:00 WIB 2018, Thread: Active
 Message received: message ke 7 pada Sun Jun 24 12:28:00 WIB 2018, Thread: ActiveMQ Session Task
 ```
 
-Recieved message 2
+#### Recieved message 2
 
 ```bash
 mvn exec:java -Dexec.mainClass=com.maryanto.dimas.example.queue.RecivedQueue
@@ -102,7 +102,7 @@ Message received: message ke 5 pada Sun Jun 24 12:28:00 WIB 2018, Thread: Active
 Message received: message ke 8 pada Sun Jun 24 12:28:00 WIB 2018, Thread: ActiveMQ Session Task
 ```
 
-Sending message
+#### Sending message
 
 ```bash
 mvn exec:java -Dexec.mainClass=com.maryanto.dimas.example.queue.SentQueue

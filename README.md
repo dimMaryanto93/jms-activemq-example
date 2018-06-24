@@ -30,8 +30,8 @@ bin/activemq start
 - Producer / Publisher, yaitu aplikasi client atau JMS Client yang bertindak sebagai pengirim.
 - Consumer / Subscriber, yaitu aplikasi client atau JMS Client yang bertindak sebagai penerima.
 - Message, yaitu message atau data.
-- queue, yaitu message atau data yang dikirim yang harus dipastikan dibaca oleh client penerima.
-- topic, yaitu message atau data yang dikirim yang dapat diterima oleh lebih dari satu subscribe.
+- queue, yaitu message yang diterima oleh client **diantrikan** dan dikirim satu-per-satu.
+- topic, yaitu message yang diterima oleh client **disebarkan** ke setiap client yang terkonek.
 
 ## Model Java Message Service
 

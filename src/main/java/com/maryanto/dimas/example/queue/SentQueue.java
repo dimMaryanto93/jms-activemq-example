@@ -1,4 +1,6 @@
-package com.maryanto.dimas.example;
+package com.maryanto.dimas.example.queue;
+
+import com.maryanto.dimas.example.JMSConnection;
 
 import javax.jms.*;
 import java.util.Date;
@@ -6,7 +8,7 @@ import java.util.Date;
 /**
  * Hello world!
  */
-public class SendMessage {
+public class SentQueue {
 
     public static void main(String[] args) throws JMSException {
         ConnectionFactory connectionFactory = JMSConnection.getConnectionFactory();

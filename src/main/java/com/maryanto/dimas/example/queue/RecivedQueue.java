@@ -1,8 +1,10 @@
-package com.maryanto.dimas.example;
+package com.maryanto.dimas.example.queue;
+
+import com.maryanto.dimas.example.JMSConnection;
 
 import javax.jms.*;
 
-public class AcknowloageMessage implements MessageListener {
+public class RecivedQueue implements MessageListener {
 
     @Override
     public void onMessage(Message message) {
@@ -17,7 +19,7 @@ public class AcknowloageMessage implements MessageListener {
     }
 
     public static void main(String[] args) throws JMSException {
-        AcknowloageMessage messageReciver = new AcknowloageMessage();
+        RecivedQueue messageReciver = new RecivedQueue();
         ConnectionFactory connectionFactory = JMSConnection.getConnectionFactory();
         Connection connection = connectionFactory.createConnection();
         connection.start();
